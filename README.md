@@ -12,7 +12,7 @@
 
 * [x] - :two: ~~Трафик должен делиться поровну между инстансами.~~
 
- *NLB address at pictures - http://158.160.57.255/
+ NLB address at pictures - http://158.160.57.255/
 
 >Screenshot of LAMP
 ![image](https://db3pap003files.storage.live.com/y4mqSIY27DXGl8rsyraXyxtDdotcBhQK1MGMwxGd7dYqHd70ZdRDthY7ZLGpgcXg9B1qxQ1dqHyw7TdwnCL1POYHESd3yV0CX4DPO0W9drhPtnYzRbb1Bc-9v_Q5DigSld6PNE9ubrqh6kezCLJUhoTe2vS5LfZhnNkRP8mVC7h-LHFqgonayPGRLCEU4sp0pvu1_dgYORsLG8kegRgiKrIFA/LAMP_FROM_NLB.jpg?psid=1&width=1542&height=802)
