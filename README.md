@@ -12,7 +12,10 @@
 
 ![image](https://db3pap003files.storage.live.com/y4mL-lDT5CpIMtiA0fyPYemiLdB3vQQGHXwo9gtxB5t1hiiwBQ0ZS_sGTPqtU8ebfL3qDvH_IxJibVYDSjwl2zPV3JhFlomZFGOG5BqV5z7y5P6-1d3S0DVjlIrklIOPJP6_a5lwiGSJL-gDQBlEWMLwQlIiEjbhE8el61_gESkaHTPVC9XEUfHc4npC1FjuVvo-a7A7djTBY7ITeWRYEU3aQ/VM_LEMP%2BLAMP.jpg?psid=1&width=1775&height=558) 
 
-* [ ] - :two: **Трафик должен делиться поровну между инстансами.**
+* [x] - :two: ~~Трафик должен делиться поровну между инстансами.~~
+>Screenshot of LAMP
+![image](https://db3pap003files.storage.live.com/y4mqSIY27DXGl8rsyraXyxtDdotcBhQK1MGMwxGd7dYqHd70ZdRDthY7ZLGpgcXg9B1qxQ1dqHyw7TdwnCL1POYHESd3yV0CX4DPO0W9drhPtnYzRbb1Bc-9v_Q5DigSld6PNE9ubrqh6kezCLJUhoTe2vS5LfZhnNkRP8mVC7h-LHFqgonayPGRLCEU4sp0pvu1_dgYORsLG8kegRgiKrIFA/LAMP_FROM_NLB.jpg?psid=1&width=1542&height=802)
+
 * [ ] - :three: **Доступ к инстансам должен быть возможен как через IP Load Balancer, так и через их публичные IP.**
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
