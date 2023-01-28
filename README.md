@@ -1,4 +1,4 @@
-# SkillFactory-B5.7-Yandex-Cloud-Network-Load-Balancer
+# **SkillFactory-B5.7-Yandex-Cloud-Network-Load-Balancer**
 
 ## Задание:
 - [ ] - :one: Добавить в проект Network Load Balancer таким образом, чтобы за ним были созданные нами инстансы.
