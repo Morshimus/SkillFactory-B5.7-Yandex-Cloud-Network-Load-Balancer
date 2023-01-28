@@ -13,3 +13,4 @@ output "internal_ip_address_vm_2" {
 output "external_ip_address_vm_2" {
   value = module.morsh_instance_ya_2.external_ip_address_morsh_bastion
 }
+
