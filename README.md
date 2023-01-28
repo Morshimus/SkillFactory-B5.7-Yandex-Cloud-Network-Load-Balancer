@@ -20,7 +20,7 @@
 >Screenshot of LEMP
 ![image](https://db3pap003files.storage.live.com/y4myLWH96KN5YmmbbmrE3yUDjx6EYniaM12aNZ-cjRkb3k9QhQOcPJNKJa2wmbvW1EygX4cXtjSPC_6a3vqVQNtA6OuHjWE3tgL9Q5YEcx6-Mfk5uy96KdL0Zh1J4-6V8lgcVukzsnvPWYWw0bjYPhco81EcVFTXqbyHsiq8cNrk-9EQZqPtSr-_SI2Reqy7boS4R3-9jvEAq68ZI-Wcdjlfg/LEMP_FROM_NLB.jpg?psid=1&width=1802&height=662)
 
-* [x] - :three: ~~Трафик должен делиться поровну между инстансами.~~
+* [x] - :three: ~~ТДоступ к инстансам должен быть возможен как через IP Load Balancer, так и через их публичные IP.~~
 
 
  >Screenshot of own LAMP external ipv4 address 
