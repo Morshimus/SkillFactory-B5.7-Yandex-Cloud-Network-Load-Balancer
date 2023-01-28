@@ -6,7 +6,7 @@
 *.tfstate.*
 *.lock.hcl
 key.json
-plantf.json
+plantf
 morsh_bastion_SSH
 morsh_bastion_SSH.pub
 

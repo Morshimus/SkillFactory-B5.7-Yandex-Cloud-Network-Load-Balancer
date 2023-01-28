@@ -67,13 +67,13 @@ function destroy {
 function plan {
     param (
         [Parameter(Mandatory=$false, Position=0)]
-        [string]$Out = "./plantf.json"
+        [switch]$Out 
     )
     
     if($Out){
      terraform plan `
      -var-file="input.tfvars" `
-     -out=$Out
+     -out="/plantf"
     }else{
      terraform plan `
      -var-file="input.tfvars"        
