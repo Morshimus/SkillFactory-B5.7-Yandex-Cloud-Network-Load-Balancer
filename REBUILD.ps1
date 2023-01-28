@@ -1,1 +1,0 @@
-./DESTROY.ps1 ; if($?) {./APPLY.ps1}
