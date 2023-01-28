@@ -48,7 +48,7 @@ variable "subnet_b_name_yandex" {
 
 variable "subnet_b_v4_cidr_blocks_yandex" {
   type        = list(string)
-  default     = ["192.168.21.0/28"]
+  default     = ["192.168.22.0/28"]
   description = "IPv4 network for 2st instance subnet"
 }
 
