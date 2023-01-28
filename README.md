@@ -22,9 +22,9 @@
 
 * [x] - :three: ~~Доступ к инстансам должен быть возможен как через IP Load Balancer, так и через их публичные IP.~~
 
- *VM1 address at picture - http://51.250.27.214/ temp
+ VM1 address at picture - http://51.250.27.214/ temp
  
- *VM2 address at picture - http://130.193.48.16/ temp
+ VM2 address at picture - http://130.193.48.16/ temp
 
  >Screenshot of own LAMP external ipv4 address 
  ![image](https://db3pap003files.storage.live.com/y4mgy44KVi5I0XbmP6cW50Z18zdP4D4bk1IPknTXNb9bq2x6vxXKp06CcjRnilkPH3aRMuN1fU4OieZG3RIli2D3BVdIi-IK9KYvMMxt5nRNq5OX_VAsZFN5xmE2c2cDEcVFL-7AjOUmHCaNpXlLuiEKbeTnl60TOtkSDKY7FvlUEOkqA9_Axk82inCAy5uHHeU79v3hadaIi9sfrGOxC8n0Q/LAMP_OWN_PUBLIC.jpg?psid=1&width=1461&height=802)
