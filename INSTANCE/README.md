@@ -30,11 +30,11 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_cloud_id"></a> [cloud\_id](#input\_cloud\_id) | n/a | `string` | `"b1gm80drf2f2dk70jc3f"` | no |
-| <a name="input_creation_zone"></a> [creation\_zone](#input\_creation\_zone) | n/a | `string` | n/a | yes |
+| <a name="input_creation_zone_yandex"></a> [creation\_zone\_yandex](#input\_creation\_zone\_yandex) | Name of zone were located resources. Mandatory | `string` | n/a | yes |
 | <a name="input_folder_id"></a> [folder\_id](#input\_folder\_id) | n/a | `string` | `"b1g16ac5if9cnssnhfip"` | no |
 | <a name="input_os_disk_size"></a> [os\_disk\_size](#input\_os\_disk\_size) | n/a | `string` | `"5"` | no |
 | <a name="input_os_disk_type"></a> [os\_disk\_type](#input\_os\_disk\_type) | n/a | `string` | `"network-ssd"` | no |
-| <a name="input_service_account_key"></a> [service\_account\_key](#input\_service\_account\_key) | n/a | `string` | `"./key.json"` | no |
+| <a name="input_service_account_key_yandex"></a> [service\_account\_key\_yandex](#input\_service\_account\_key\_yandex) | Modules providers auth key in yandex. Not storing in module | `string` | `"./key.json"` | no |
 | <a name="input_source_image"></a> [source\_image](#input\_source\_image) | n/a | `string` | `"lamp"` | no |
 | <a name="input_vm_name_bastion"></a> [vm\_name\_bastion](#input\_vm\_name\_bastion) | n/a | `string` | `"morsh_bastion"` | no |
 | <a name="input_vm_ram_qty"></a> [vm\_ram\_qty](#input\_vm\_ram\_qty) | n/a | `string` | `"2"` | no |

@@ -1,12 +1,12 @@
 
 variable "service_account_key_yandex" {
-  type    = string
-  default = "./key.json"
+  type        = string
+  default     = "./key.json"
   description = "Modules providers auth key in yandex. Not storing in module"
 }
 
 variable "creation_zone_yandex" {
-  type = string
+  type        = string
   description = "Name of zone were located resources. Mandatory"
 
 }
