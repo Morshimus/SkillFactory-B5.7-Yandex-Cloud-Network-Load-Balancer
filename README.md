@@ -23,7 +23,9 @@
 * [x] - :three: ~~Доступ к инстансам должен быть возможен как через IP Load Balancer, так и через их публичные IP.**
  
  *На момент выполнения задания адреса был:
+ 
  *external_ip_address_vm_1 = "130.193.48.16"
+ 
  *external_ip_address_vm_2 = "51.250.27.214"
  
  >Screenshot of own LAMP external ipv4 address 
