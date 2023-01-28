@@ -3,7 +3,9 @@
 ## Задание:
 * [x] - :one: ~~Добавить в проект Network Load Balancer таким образом, чтобы за ним были созданные нами инстансы.~~
 
-![image](https://db3pap003files.storage.live.com/y4mL-lDT5CpIMtiA0fyPYemiLdB3vQQGHXwo9gtxB5t1hiiwBQ0ZS_sGTPqtU8ebfL3qDvH_IxJibVYDSjwl2zPV3JhFlomZFGOG5BqV5z7y5P6-1d3S0DVjlIrklIOPJP6_a5lwiGSJL-gDQBlEWMLwQlIiEjbhE8el61_gESkaHTPVC9XEUfHc4npC1FjuVvo-a7A7djTBY7ITeWRYEU3aQ/VM_LEMP%2BLAMP.jpg?psid=1&width=444&height=90)
+
+
+![image](https://db3pap003files.storage.live.com/y4mL-lDT5CpIMtiA0fyPYemiLdB3vQQGHXwo9gtxB5t1hiiwBQ0ZS_sGTPqtU8ebfL3qDvH_IxJibVYDSjwl2zPV3JhFlomZFGOG5BqV5z7y5P6-1d3S0DVjlIrklIOPJP6_a5lwiGSJL-gDQBlEWMLwQlIiEjbhE8el61_gESkaHTPVC9XEUfHc4npC1FjuVvo-a7A7djTBY7ITeWRYEU3aQ/VM_LEMP%2BLAMP.jpg) 
 
 * [ ] - :two: **Трафик должен делиться поровну между инстансами.**
 * [ ] - :three: **Доступ к инстансам должен быть возможен как через IP Load Balancer, так и через их публичные IP.**
