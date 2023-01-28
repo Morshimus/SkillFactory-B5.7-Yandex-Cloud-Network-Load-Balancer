@@ -7,6 +7,8 @@
 *.lock.hcl
 key.json
 plantf.json
+morsh_bastion_SSH
+morsh_bastion_SSH.pub
 
 # Crash log files
 crash.log
