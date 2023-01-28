@@ -4,6 +4,11 @@
 * [x] - :one: ~~Добавить в проект Network Load Balancer таким образом, чтобы за ним были созданные нами инстансы.~~
 
 
+>Screenshot of created NLB + Target Groups with VM
+
+![image](https://db3pap003files.storage.live.com/y4m5uIIJ1cyKWb_iO9FlZFTxprKAlOHPfcqUW0N1RAdHakcoiCpiMAplfDwE2ZTJfRD1CXvtJMOa_ThxD8pupMi-yaHW0T-n4BaENn8F8d83P9wKsmUFamvTwqbZT45_iNy0QFbR6Sf0JOob24TkrCT-g_wkh7AQXSTw4HODEb2Bm4lF4C7FQeG_UvVBAURA2hTe7zv3igEqskcffa0iLVc_A/NLB_WITH_VM.jpg?psid=1&width=1627&height=802)
+
+>Screenshot of created VM (LAMP and LEMP)
 
 ![image](https://db3pap003files.storage.live.com/y4mL-lDT5CpIMtiA0fyPYemiLdB3vQQGHXwo9gtxB5t1hiiwBQ0ZS_sGTPqtU8ebfL3qDvH_IxJibVYDSjwl2zPV3JhFlomZFGOG5BqV5z7y5P6-1d3S0DVjlIrklIOPJP6_a5lwiGSJL-gDQBlEWMLwQlIiEjbhE8el61_gESkaHTPVC9XEUfHc4npC1FjuVvo-a7A7djTBY7ITeWRYEU3aQ/VM_LEMP%2BLAMP.jpg?psid=1&width=1775&height=558) 
 
