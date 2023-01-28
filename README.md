@@ -1,7 +1,7 @@
 # **SkillFactory-B5.7-Yandex-Cloud-Network-Load-Balancer**
 
 ## Задание:
-* [ ] - :one: **Добавить в проект Network Load Balancer таким образом, чтобы за ним были созданные нами инстансы.**
+* [x] - :one: ~~Добавить в проект Network Load Balancer таким образом, чтобы за ним были созданные нами инстансы.~~
 * [ ] - :two: **Трафик должен делиться поровну между инстансами.**
 * [ ] - :three: **Доступ к инстансам должен быть возможен как через IP Load Balancer, так и через их публичные IP.**
 
@@ -25,6 +25,7 @@
 |------|--------|---------|
 | <a name="module_morsh_instance_ya_1"></a> [morsh\_instance\_ya\_1](#module\_morsh\_instance\_ya\_1) | ./INSTANCE | n/a |
 | <a name="module_morsh_instance_ya_2"></a> [morsh\_instance\_ya\_2](#module\_morsh\_instance\_ya\_2) | ./INSTANCE | n/a |
+| <a name="module_morsh_nlb_ya_1"></a> [morsh\_nlb\_ya\_1](#module\_morsh\_nlb\_ya\_1) | ./NLB | n/a |
 
 ## Resources
 
@@ -47,7 +48,7 @@
 | <a name="input_subnet_a_v4_cidr_blocks_yandex"></a> [subnet\_a\_v4\_cidr\_blocks\_yandex](#input\_subnet\_a\_v4\_cidr\_blocks\_yandex) | IPv4 network for 1st instance subnet | `list(string)` | <pre>[<br>  "192.168.21.0/28"<br>]</pre> | no |
 | <a name="input_subnet_b_description_yandex"></a> [subnet\_b\_description\_yandex](#input\_subnet\_b\_description\_yandex) | n/a | `string` | `"Subnet B for morshimus instance B"` | no |
 | <a name="input_subnet_b_name_yandex"></a> [subnet\_b\_name\_yandex](#input\_subnet\_b\_name\_yandex) | Subnet for 2nd instance | `string` | `"morsh-subnet-b"` | no |
-| <a name="input_subnet_b_v4_cidr_blocks_yandex"></a> [subnet\_b\_v4\_cidr\_blocks\_yandex](#input\_subnet\_b\_v4\_cidr\_blocks\_yandex) | IPv4 network for 2st instance subnet | `list(string)` | <pre>[<br>  "192.168.21.0/28"<br>]</pre> | no |
+| <a name="input_subnet_b_v4_cidr_blocks_yandex"></a> [subnet\_b\_v4\_cidr\_blocks\_yandex](#input\_subnet\_b\_v4\_cidr\_blocks\_yandex) | IPv4 network for 2st instance subnet | `list(string)` | <pre>[<br>  "192.168.22.0/28"<br>]</pre> | no |
 | <a name="input_zone_yandex_a"></a> [zone\_yandex\_a](#input\_zone\_yandex\_a) | Zone of 1st instance in yandex cloud | `string` | `"ru-central1-a"` | no |
 | <a name="input_zone_yandex_b"></a> [zone\_yandex\_b](#input\_zone\_yandex\_b) | Zone of 2nd instance in yandex cloud | `string` | `"ru-central1-a"` | no |
 

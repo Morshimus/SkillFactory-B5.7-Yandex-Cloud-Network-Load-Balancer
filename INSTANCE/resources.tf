@@ -8,7 +8,8 @@ resource "yandex_compute_instance" "morsh_bastion" {
 
   lifecycle {
     ignore_changes = [
-      name
+      name,
+      labels
     ]
   }
 

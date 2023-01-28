@@ -37,3 +37,15 @@ module "morsh_instance_ya_2" {
   vpc_subnet_id        = yandex_vpc_subnet.morsh-subnet-b.id
   creation_zone_yandex = var.zone_yandex_b
 }
+
+
+module "morsh_nlb_ya_1" {
+  source                   = "./NLB"
+  vpc_subnet_id_b          = yandex_vpc_subnet.morsh-subnet-b.id
+  vpc_subnet_id_a          = yandex_vpc_subnet.morsh-subnet-a.id
+  instance_a_ipv4_internal = module.morsh_instance_ya_1.internal_ip_address_morsh_bastion
+  instance_b_ipv4_internal = module.morsh_instance_ya_2.internal_ip_address_morsh_bastion
+  creation_zone_yandex     = var.zone_yandex_a
+
+
+}
