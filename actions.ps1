@@ -35,10 +35,10 @@ function init {
 function apply {
     param (
         [Parameter(Mandatory=$false, Position=0)]
-        [switch]$WithoutApprov 
+        [switch]$withoutApprov 
     )
     
-    if($WithoutApprov){
+    if($withoutApprov){
      terraform apply `
      -var-file="input.tfvars" `
     }else{
@@ -51,10 +51,10 @@ function apply {
 function destroy {
     param (
         [Parameter(Mandatory=$false, Position=0)]
-        [switch]$WithoutApprov 
+        [switch]$withoutApprov 
     )
     
-    if($WithoutApprov){
+    if($withoutApprov){
      terraform destroy `
      -var-file="input.tfvars" `
     }else{
@@ -70,7 +70,7 @@ function plan {
         [switch]$Out 
     )
     
-    if($Out){
+    if($out){
      terraform plan `
      -var-file="input.tfvars" `
      -out="/plantf"
@@ -81,5 +81,5 @@ function plan {
 }
 
 function rebuild {    
-    destroy ; if($?) {apply}
+    destroy ;(Wait-Event -Timeout 5); if($?) {apply}
 }
