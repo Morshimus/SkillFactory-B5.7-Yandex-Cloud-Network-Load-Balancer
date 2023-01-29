@@ -41,7 +41,7 @@ function apply {
     
     if($withoutApprov){
      terraform apply `
-     -var-file="input.tfvars" `
+     -var-file="input.tfvars" 
     }else{
      terraform apply `
      -var-file="input.tfvars" `
@@ -57,7 +57,7 @@ function destroy {
     
     if($withoutApprov){
      terraform destroy `
-     -var-file="input.tfvars" `
+     -var-file="input.tfvars" 
     }else{
      terraform destroy `
      -var-file="input.tfvars" `
@@ -82,5 +82,5 @@ function plan {
 }
 
 function rebuild {    
-    destroy ;(Wait-Event -Timeout 5); if($?) {apply}
+    destroy ; if($?) {Wait-Event -Timeout 5; apply}
 }
