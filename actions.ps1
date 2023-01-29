@@ -1,3 +1,4 @@
+Set-alias tf terraform
 function init {
     Param ( 
      [Parameter(Mandatory=$false, Position=0)]
