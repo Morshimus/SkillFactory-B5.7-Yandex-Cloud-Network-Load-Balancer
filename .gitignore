@@ -9,7 +9,7 @@ key.json
 plantf
 morsh_bastion_SSH
 morsh_bastion_SSH.pub
-.pre-commit-config.yaml
+
 
 # Crash log files
 crash.log

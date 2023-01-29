@@ -8,6 +8,15 @@
       args:
         - --args=--enable-rule=terraform_deprecated_interpolation
         - --args=--enable-rule=terraform_deprecated_index
+        - --args=--enable-rule=terraform_empty_list_equality
+        - --args=--enable-rule=terraform_module_pinned_source
+        - --args=--enable-rule=terraform_module_version
+        - --args=--enable-rule=terraform_required_providers
+        - --args=--enable-rule=terraform_required_version
+        - --args=--enable-rule=terraform_typed_variables
+        - --args=--enable-rule=terraform_unused_declarations
+        - --args=--enable-rule=terraform_unused_required_providers
+        - --args=--enable-rule=terraform_workspace_remote
     - id: terraform_docs
       args:
         - --hook-config=--path-to-file=README.md        # Valid UNIX path. I.e. ../TFDOC.md or docs/README.md etc.
