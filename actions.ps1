@@ -68,7 +68,7 @@ function destroy {
 function plan {
     param (
         [Parameter(Mandatory=$false, Position=0)]
-        [switch]$Out 
+        [switch]$out 
     )
     
     if($out){
