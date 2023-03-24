@@ -16,10 +16,10 @@ output "external_ip_address_vm_2" {
 
 output "external_ip_address_lb_simple" {
   value = module.morsh_nlb_ya_1.lb_ip_external_address_simple
-  
+
 }
 
 output "external_ip_address_lb_hard" {
   value = module.morsh_nlb_ya_1.lb_ip_external_address_hard
-  
+
 }
